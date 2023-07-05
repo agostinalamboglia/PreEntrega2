@@ -1,0 +1,127 @@
+/* reset*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos generales*/
+html{
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(255, 211, 218);
+}
+
+header{
+    padding: 25px;
+    text-align: right;
+    background-color: palevioletred;
+}
+
+a{
+    text-decoration: none;
+    color: linen;
+}
+
+header nav{
+    margin-top: 20px;
+}
+
+header nav ul li{
+    display: inline-block;
+    background-color: lightpink;
+    padding: 5px;
+    margin: 3px;
+}
+
+footer{
+    background-color: palevioletred;
+    text-align: center;
+}
+
+/*estilos de home*/
+main .home{
+    text-align: left;
+}
+
+main .indexh1{
+    margin: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    color: darkred;
+}
+
+main .indexh2{
+    margin:50px;
+    font-size: 30px;
+}
+
+main p{
+    margin: 50px;
+    font-size: 25px;
+}
+
+
+/*estilos de about me*/
+main .abouth1{
+    margin:50px;
+    font-size: 30px;
+    color: darkred;
+}
+
+main div .aboutp p{
+    font-size: 10px;
+}
+
+/*estilos de projects*/
+main .projectsh1{
+    margin:50px;
+    font-size: 30px;
+    color: darkred;
+}
+
+main img{
+    margin: 100px;
+    padding: 100px;
+    background-color: rgb(247, 84, 192);
+}
+
+/*estilos de resume*/
+main .resumeh1{
+    margin:50px;
+    font-size: 30px;
+    color: darkred;
+}
+
+main .resumeh2{
+    margin: 35px 50px;
+    font-size: 25px;
+}
+
+main .resumep{
+    margin: 35px 50px;
+    font-size: 20px;
+}
+
+/*estilos de contact*/
+
+main .contacth1{
+    margin:50px;
+    font-size: 30px;
+    color: darkred;
+}
+
+main img{
+    padding: 20px;
+    margin: 50px;
+}
+
+main .contacth2{
+    margin: 30px 50px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+main .contactp{
+    font-size: 16px;
+}

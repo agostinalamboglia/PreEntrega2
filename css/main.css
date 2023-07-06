@@ -18,6 +18,11 @@ header{
     background-color: palevioletred;
 }
 
+/*aca quiero poner el logo a la izq*/
+header a{
+
+}
+
 a{
     text-decoration: none;
     color: linen;

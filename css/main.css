@@ -121,10 +121,13 @@ main .contacth1{
     gap: 30px;
     justify-content: center;
     align-items: center;}
-.medioContacto{ 
+.medioContacto{
     width: 230px;
     height: 230px;
     margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: Center;
     background-color: pink;
     border: 3px dotted darkred;}
 nav div .imgContacto{

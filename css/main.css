@@ -109,24 +109,32 @@ main .resumep{
 }
 
 /*estilos de contact*/
-
 main .contacth1{
     margin:50px;
     font-size: 30px;
-    color: darkred;
-}
-
-main img{
-    padding: 20px;
+    color: darkred;}
+/* aplico flex */
+.contenedorContactos{
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;}
+.medioContacto{ 
+    width: 230px;
+    height: 230px;
     margin: 50px;
-}
-
+    background-color: pink;
+    border: 3px dotted darkred;}
+nav div .imgContacto{
+    padding: 5px;
+    margin: 30px;}
 main .contacth2{
     margin: 30px 50px;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
-}
-
+    margin: 0;}
 main .contactp{
     font-size: 16px;
-}
+    margin: 0;}

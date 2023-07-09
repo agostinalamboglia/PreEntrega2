@@ -18,9 +18,21 @@ header{
     background-color: palevioletred;
 }
 
-/*aca quiero poner el logo a la izq*/
-header a{
+.menu-color{
+    background-color: #DB7093;
+}
 
+li .color-link{
+    color: #800050;
+}
+
+li .color-link:hover{
+    background-color: #FDDADA;
+}
+
+/*aca quiero poner el logo a la izq*/
+nav .collapse{
+    
 }
 
 a{
@@ -112,7 +124,9 @@ main .resumep{
 main .contacth1{
     margin:50px;
     font-size: 30px;
-    color: darkred;}
+    color: darkred;
+}
+
 /* aplico flex */
 .contenedorContactos{
     height: 400px;
@@ -120,7 +134,9 @@ main .contacth1{
     flex-flow: row wrap;
     gap: 30px;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+}
+
 .medioContacto{
     width: 230px;
     height: 230px;
@@ -129,15 +145,22 @@ main .contacth1{
     flex-direction: column;
     align-items: Center;
     background-color: pink;
-    border: 3px dotted darkred;}
+    border: 3px dotted darkred;
+}
+
 nav div .imgContacto{
     padding: 5px;
-    margin: 30px;}
+    margin: 30px;
+}
+
 main .contacth2{
     margin: 30px 50px;
     font-size: 16px;
     font-weight: bold;
-    margin: 0;}
+    margin: 0;
+}
+
 main .contactp{
     font-size: 16px;
-    margin: 0;}
+    margin: 0;
+}

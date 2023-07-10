@@ -99,15 +99,21 @@ main section .imgHome{
 }
 
 /*estilos de about me*/
-main .abouth1{
-    margin: 50px;
-    font-size: 30px;
-    color: #800050;
-
+.mainAbout{
+    background-color: #FDDADA;
 }
 
-main div .aboutp p{
-    font-size: 10px;
+main .abouth1{
+    height: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
+    font-size: 30px;
+    color: #800050;
+}
+
+main div .aboutP{
+    font-size: 20px;
+    margin: 50px;
 }
 
 /*estilos de projects*/
@@ -124,14 +130,20 @@ main .imgProyecto{
 }
 
 /*estilos de resume*/
+.mainResume{
+    background-color: #FDDADA;
+}
+
 main .resumeh1{
-    margin:50px;
+    height:50px;
+    margin-left:50px;
+    padding-top: 25px;
     font-size: 30px;
     color: #800050;
 }
 
 main .resumeh2{
-    margin: 35px 50px;
+    margin: 50px 50px 10px;
     font-size: 25px;
 }
 
@@ -148,7 +160,7 @@ main .resumep{
 main .contacth1{
     margin:0px;
     height: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
     padding-top: 25px;
     font-size: 30px;
     color: #800050;

@@ -9,11 +9,12 @@
 /*estilos generales*/
 html{
     font-family: 'Comfortaa', cursive;
-    background-color: rgb(255, 211, 218);
+    background-color: #FDDADA;
 }
 
 header{
-    padding: 25px;
+    padding: 1px;
+    height: 100px;
     text-align: right;
     background-color: palevioletred;
 }
@@ -31,9 +32,6 @@ li .color-link:hover{
 }
 
 /*aca quiero poner el logo a la izq*/
-nav .collapse{
-    
-}
 
 a{
     text-decoration: none;
@@ -54,36 +52,58 @@ header nav ul li{
 footer{
     background-color: palevioletred;
     text-align: center;
+    height:25px;
+    position: fixed; bottom: 0px ; width: 100%;
 }
 
 /*estilos de home*/
-main .home{
+.home{
     text-align: left;
+    background-color: #FDDADA;
+}
+
+main .contentMainHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    height: 300px;
 }
 
 main .indexh1{
-    margin: 50px;
+    height: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
     font-weight: bold;
     font-size: 40px;
-    color: darkred;
+    color: #800050;
 }
 
 main .indexh2{
     margin:50px;
     font-size: 30px;
+    height: 50px;
+    padding-top: 25px;
 }
 
-main p{
+main section div .parrafoindex {
     margin: 50px;
     font-size: 25px;
+    margin-top: 1px;
 }
 
+main section .imgHome{
+    margin-right: 60px;
+    padding: 10px;
+    border: 3px dotted #800050;
+}
 
 /*estilos de about me*/
 main .abouth1{
-    margin:50px;
+    margin: 50px;
     font-size: 30px;
-    color: darkred;
+    color: #800050;
+
 }
 
 main div .aboutp p{
@@ -94,10 +114,10 @@ main div .aboutp p{
 main .projectsh1{
     margin:50px;
     font-size: 30px;
-    color: darkred;
+    color: #800050;
 }
 
-main img{
+main .imgProyecto{
     margin: 100px;
     padding: 100px;
     background-color: rgb(247, 84, 192);
@@ -107,7 +127,7 @@ main img{
 main .resumeh1{
     margin:50px;
     font-size: 30px;
-    color: darkred;
+    color: #800050;
 }
 
 main .resumeh2{
@@ -121,15 +141,23 @@ main .resumep{
 }
 
 /*estilos de contact*/
+.mainContact{
+    background-color: #FDDADA;
+}
+
 main .contacth1{
-    margin:50px;
+    margin:0px;
+    height: 50px;
+    margin-left: 100px;
+    padding-top: 25px;
     font-size: 30px;
-    color: darkred;
+    color: #800050;
 }
 
 /* aplico flex */
 .contenedorContactos{
-    height: 400px;
+    margin: 1px;
+    height: 350px;
     display: flex;
     flex-flow: row wrap;
     gap: 30px;
@@ -145,7 +173,7 @@ main .contacth1{
     flex-direction: column;
     align-items: Center;
     background-color: pink;
-    border: 3px dotted darkred;
+    border: 3px dotted #800050;
 }
 
 nav div .imgContacto{

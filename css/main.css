@@ -212,3 +212,43 @@ main .contactp{
     font-size: 16px;
     margin: 0;
 }
+
+/*MQ mobile INDEX y ABOUT ME*/
+@media (max-width: 480px){
+    /**/
+    .home .indexh1{
+        font-size: 25px;
+        margin: 1px 25px;
+    }
+    .home .indexh2{
+        font-size: 15px;
+        margin: 1px 25px;
+    }
+    .home .parrafoindex{
+        font-size: 10px;
+        margin: 1px 25px;
+    }
+    .home .imgHome{
+        width: 50px;
+        height: 50px;
+    }
+    .home .contentMainHome{
+        display: inline;
+        justify-content: center;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+
+    /*ABOUT ME*/
+    .mainAbout .abouth1{
+        font-size: 25px;
+        margin: 1px 25px;
+    }
+
+    .mainAbout .aboutP{
+        font-size: 10px;
+        margin: 20px 25px;
+    }
+}

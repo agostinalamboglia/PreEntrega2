@@ -1,66 +1,53 @@
 /* reset*/
-
 *{
     margin:0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
+    
 /*estilos generales*/
 html{
     font-family: 'Comfortaa', cursive;
-    background-color: #FDDADA;
-}
+    background-color: #FDDADA;}
 
 header{
     padding: 1px;
     height: 100px;
     text-align: right;
-    background-color: palevioletred;
-}
+    background-color: palevioletred;}
 
 .menu-color{
-    background-color: #DB7093;
-}
+    background-color: #DB7093;}
 
 li .color-link{
-    color: #800050;
-}
+    color: #800050;}
 
 li .color-link:hover{
-    background-color: #FDDADA;
-}
-
-/*aca quiero poner el logo a la izq*/
+    background-color: #FDDADA;}
 
 a{
     text-decoration: none;
-    color: linen;
-}
+    color: linen;}
 
 header nav{
-    margin-top: 20px;
-}
+    margin-top: 20px;}
 
 header nav ul li{
     display: inline-block;
     background-color: lightpink;
     padding: 5px;
-    margin: 3px;
-}
+    margin: 3px;}
 
 footer{
     background-color: palevioletred;
     text-align: center;
     height:25px;
-    position: fixed; bottom: 0px ; width: 100%;
-}
+    position: fixed; bottom: 0px ; width: 100%;}
 
 /*estilos de home*/
 .home{
     text-align: left;
-    background-color: #FDDADA;
-}
+    background-color: #FDDADA;}
 
 main .contentMainHome{
     display: flex;
@@ -117,16 +104,37 @@ main div .aboutP{
 }
 
 /*estilos de projects*/
+.mainProjects{
+    background-color: #FDDADA;
+}
+
 main .projectsh1{
-    margin:50px;
+    height: 50px;
+    margin-left: 50px;
+    padding-top: 25px;
     font-size: 30px;
     color: #800050;
 }
 
-main .imgProyecto{
+main .imgProjects{
+    gap: 15px;
+    border: 2px solid #8a019c;
+}
+
+/*Grids*/
+.grillaProjects{
+    justify-content: center;
+}
+
+.mainProjects .grillaProjects{
+    display: grid;
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 250px 250px;
+    gap: 50px;
+    height: 600px;
     margin: 100px;
-    padding: 100px;
-    background-color: rgb(247, 84, 192);
+    justify-items: center;
+    align-items: center;
 }
 
 /*estilos de resume*/
